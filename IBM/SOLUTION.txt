@@ -1,0 +1,7 @@
+The proposed system aims to address the challenge of classifying rural infrastructure projects into their correct PMGSY scheme (e.g., PMGSY-I, PMGSY-II, PMGSY-III, RCPLWEA). The solution will consist of the following components:
+Data Collection:  Gather historical project-level data, including state, district, sanctioned work details, completion status, and financial expenditures.
+Data Preprocessing :   Clean and preprocess the dataset by: Dropping irrelevant or empty columns. Handling missing values in fields like COST_OF_WORKS_SANCTIONED
+Machine Learning Algorithm : Implement a multi-class classification model to predict the PMGSY_SCHEME based on the project data. Algorithms to consider: Random Forest Classifier (robust and interpretable)
+Deployment: Develop a user-friendly web interface or dashboard to allow users (government officials, planners) to input project details and receive real-time predictions. Hosting platforms like IBM CLOUD
+Evaluation: Use watsonix.ai model explainability and to ensure transparency in predictionsContinuously monitor model performance and retrain as more data becomes available
+Result: The final system will allow government departments and infrastructure planners to automatically classify road and bridge projects into their correct PMGSY scheme. This will enhance project monitoring, improve transparency in budget allocation, and reduce manual errors, ultimately contributing to smarter rural development planning.
